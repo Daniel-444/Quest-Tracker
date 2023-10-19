@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+html,body{
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    background-image: url(./imagenes/background.png) ;
+    background-size: cover;
+    background-color: #5e4603;
+    
+    background-position-x: center ;
+    background-position-y: -20px ;
+
+    
+}
+
+
+h1{
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+.Aplicacion-LdT{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.A1logo-contenedor{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.A1logo{
+    width: 400px;
+    height: 50px;
+    
+}
+
+/* Lista de tareas */
+
+.Lista-tareas-principal{
+    width: 600px;
+    min-height: 500px;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 26px;
+
+}
+
